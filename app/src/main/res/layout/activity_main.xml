@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:onClick="XuLyObjectAnimator"
+        android:id="@+id/btnObjectAnimator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Object Animator" />
+
+    <Button
+        android:onClick="XuLyObjectAnimatorSet"
+        android:id="@+id/btnObjectAnimatorSet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Object Animator set" />
+
+    <Button
+        android:id="@+id/btnAlpha"
+        android:onClick="xuLyAlphAnimation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alpha Animation" />
+
+    <Button
+        android:onClick="xuLyScaleAnimation"
+        android:id="@+id/btnScaleAnimation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Scale Animation" />
+
+    <Button
+        android:onClick="xuLyTranslate"
+        android:id="@+id/btnTranslate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Translate" />
+
+    <Button
+        android:id="@+id/btnRotate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="xuLyRotate"
+        android:text="Rotate" />
+
+    <Button
+        android:id="@+id/btnTongHop"
+        android:onClick="xuLyTongHop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tổng hợp" />
+    <Button
+        android:id="@+id/btnRungNhẹ"
+        android:onClick="xuLyRung"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rung" />
+</LinearLayout>
